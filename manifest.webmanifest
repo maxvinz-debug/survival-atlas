@@ -1,0 +1,9 @@
+{
+  "name": "Survival Atlas",
+  "short_name": "Survival Atlas",
+  "description": "An offline-capable student field guide to preparedness and outdoor safety.",
+  "start_url": "./index.html",
+  "display": "standalone",
+  "background_color": "#111812",
+  "theme_color": "#111812"
+}
