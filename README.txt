@@ -30,3 +30,27 @@ style.css            Layout, design and animations
 script.js            Interactive features, visual guides and checklist
 sw.js                Offline cache service worker
 manifest.webmanifest App metadata
+
+
+PHOTO UPDATE
+The hero and Field Guides now use real outdoor and nature photographs loaded from Unsplash and the image publishers listed below. An internet connection is needed to load these remote photographs.
+
+Photo sources:
+- Unsplash: https://unsplash.com/photos/river-flowing-through-a-dense-forest-towards-mountains-WQW0uTofZiE
+- Unsplash: https://unsplash.com/photos/a-green-tent-sitting-on-top-of-a-lush-green-field-eRGsazs04yw
+- Unsplash: https://unsplash.com/photos/waterfalls-in-the-middle-of-the-forest-during-daytime-XvxEMOS3kMI
+- First-aid photograph: https://muzal.sk/media/e0mpblwj/kpz-3.webp
+- Mountain landscape photograph: https://www.lonelyplanet.com/articles/best-time-to-visit-kyrgyzstan
+
+
+LATEST UPDATE
+- Search field guides by keyword and combine search with category filters.
+- Added a Philippines-wide 911 call link and official government emergency-hotline directory.
+- Added direct links to PHIVOLCS and other trusted public-safety agencies.
+- Checklist progress is saved locally in the same browser on the same device.
+- Offline cache version updated so the browser can refresh the revised site.
+
+IMPORTANT
+This student project is educational and is not an emergency-response service.
+For immediate danger in the Philippines, call 911 and follow official instructions.
+Online government links may require an internet connection.

@@ -245,13 +245,22 @@
         <div class="section-kicker">/ BE AWARE. BE PREPARED.</div>
         <h2>WHEN THE<br>UNEXPECTED<br><span>HAPPENS.</span></h2>
         <p>Different emergencies need different responses. Learn local hazards, follow official alerts, and prioritize life and safety over belongings.</p>
-        <div class="hazard-list">
-          <div><span class="hazard-icon">↗</span><span><b>Typhoons & severe weather</b><small>Monitor official forecasts and follow evacuation advice.</small></span><span class="hazard-arrow">↗</span></div>
-          <div><span class="hazard-icon">≈</span><span><b>Flooding</b><small>Move away from floodwater and never walk or drive through it.</small></span><span class="hazard-arrow">↗</span></div>
-          <div><span class="hazard-icon">⌁</span><span><b>Earthquakes</b><small>Practice “Drop, Cover, and Hold On” where appropriate.</small></span><span class="hazard-arrow">↗</span></div>
-          <div><span class="hazard-icon">＋</span><span><b>Power outages</b><small>Keep a flashlight, charged power bank, and safe lighting ready.</small></span><span class="hazard-arrow">↗</span></div>
+        <div class="hazard-list" aria-label="Emergency information">
+          <details class="hazard-item"><summary><span class="hazard-icon" aria-hidden="true">↗</span><span class="hazard-summary"><b>Typhoons & severe weather</b><small>Monitor official forecasts and follow evacuation advice.</small></span><span class="hazard-arrow" aria-hidden="true">＋</span></summary><div class="hazard-details"><p><b>Before:</b> Check PAGASA bulletins and local government announcements. Secure loose outdoor items, prepare drinking water, medicines, a flashlight, and a charged phone.</p><p><b>During:</b> Stay indoors and away from windows. Move to a safer location if local authorities advise evacuation. Avoid shorelines, rivers, and areas prone to landslides.</p><p><b>After:</b> Wait for official advice before going outside. Watch for fallen power lines, damaged structures, and unstable trees.</p><p class="hazard-tip">Keep following updates from PAGASA and your local disaster-risk-reduction office.</p></div></details>
+          <details class="hazard-item"><summary><span class="hazard-icon" aria-hidden="true">≈</span><span class="hazard-summary"><b>Flooding</b><small>Move away from floodwater and never walk or drive through it.</small></span><span class="hazard-arrow" aria-hidden="true">＋</span></summary><div class="hazard-details"><p><b>Before:</b> Know whether your home or route is flood-prone. Keep important items, medicines, and emergency supplies ready, and identify a safe place to go.</p><p><b>During:</b> Move to higher ground when instructed. Never enter moving or standing floodwater on foot or in a vehicle; it may hide hazards or be contaminated. Stay away from electrical equipment in wet areas.</p><p><b>After:</b> Return only when authorities say it is safe. Avoid flood-damaged buildings and do not use food or drinking water that may have been contaminated.</p><p class="hazard-tip">If water is rising or you are in immediate danger, contact local emergency services.</p></div></details>
+          <details class="hazard-item"><summary><span class="hazard-icon" aria-hidden="true">⌁</span><span class="hazard-summary"><b>Earthquakes</b><small>Practice “Drop, Cover, and Hold On” where appropriate.</small></span><span class="hazard-arrow" aria-hidden="true">＋</span></summary><div class="hazard-details"><p><b>Before:</b> Identify safer spots away from windows and heavy objects. Secure shelves and tall furniture, and practice a household communication plan.</p><p><b>During:</b> Drop, Cover, and Hold On. Protect your head and neck and stay under sturdy furniture if available. If you are outside, move to an open area away from buildings, trees, and power lines.</p><p><b>After:</b> Expect possible aftershocks. Check for hazards without entering damaged buildings, and follow instructions from authorities. If near the coast after strong or long shaking, move to higher ground and follow tsunami warnings.</p><p class="hazard-tip">Follow PHIVOLCS and local-authority updates for official earthquake and tsunami information.</p></div></details>
+          <details class="hazard-item"><summary><span class="hazard-icon" aria-hidden="true">＋</span><span class="hazard-summary"><b>Power outages</b><small>Keep a flashlight, charged power bank, and safe lighting ready.</small></span><span class="hazard-arrow" aria-hidden="true">＋</span></summary><div class="hazard-details"><p><b>Prepare:</b> Keep a flashlight, spare batteries, charged power bank, drinking water, and essential medicines where you can find them.</p><p><b>During:</b> Use battery-powered lights when possible. Keep refrigerators and freezers closed. Unplug sensitive electronics if power surges are a concern, and keep clear of fallen wires.</p><p><b>Generator safety:</b> Never operate a generator, charcoal stove, or fuel-burning equipment indoors or in an enclosed space. Follow the manufacturer's safety instructions and local emergency guidance.</p><p><b>When power returns:</b> Check appliances and food safety. Discard food that may have become unsafe rather than tasting it.</p><p class="hazard-tip">Report downed power lines to the electric utility or emergency services; do not approach them.</p></div></details>
         </div>
         <p class="small-note">Always follow current instructions from local emergency services and official disaster-management authorities.</p>
+        <aside class="emergency-contact" aria-label="Emergency contact information">
+          <div>
+            <span class="contact-kicker">/ PHILIPPINES EMERGENCY HOTLINE</span>
+            <h3>NEED URGENT HELP?</h3>
+            <p>For an immediate emergency, call the nationwide emergency hotline. Use it responsibly and give the operator your location and the kind of help needed.</p>
+          </div>
+          <a class="call-emergency" href="tel:911" aria-label="Call 911">CALL <strong>911</strong> <span>↗</span></a>
+          <a class="hotline-directory" href="https://ehotlines.e.gov.ph/" target="_blank" rel="noopener noreferrer">VIEW OFFICIAL EMERGENCY HOTLINE DIRECTORY ↗</a>
+        </aside>
       </div>
     </section>
 
@@ -259,7 +268,7 @@
       <div class="checklist-copy">
         <div class="section-kicker">/ YOUR FIRST ACTION</div>
         <h2>THE READY<br><span>CHECKLIST.</span></h2>
-        <p>Use this interactive starter list to track a few basic preparedness tasks. Your selections stay in this page while it's open; they aren't saved to an account.</p>
+        <p>Use this interactive starter list to track a few basic preparedness tasks. Your progress is saved in this browser on this device, so you can return to it later. It is not uploaded to an account.</p>
         <div class="progress-wrap"><div class="progress-label"><span>YOUR PROGRESS</span><strong id="progressText">0 / 7 COMPLETE</strong></div><div class="progress-track"><div class="progress-fill" id="progressFill"></div></div></div>
         <button class="reset-button" id="resetChecklist">↺ RESET CHECKLIST</button>
       </div>
@@ -277,23 +286,11 @@
     </section>
 
     <section class="source-strip">
-      <div class="source-inner"><div><div class="section-kicker">/ KEEP LEARNING</div><h2>TRUSTED INFO.<br><span>SAFER CHOICES.</span></h2></div><p>This site is an educational student project. For real emergencies, use updated guidance from official authorities.</p><div class="source-links"><a href="https://www.ready.gov/" target="_blank" rel="noopener noreferrer">READY.GOV ↗</a><a href="https://www.redcross.org/get-help/how-to-prepare-for-emergencies.html" target="_blank" rel="noopener noreferrer">AMERICAN RED CROSS ↗</a><a href="https://www.pagasa.dost.gov.ph/" target="_blank" rel="noopener noreferrer">PAGASA ↗</a><a href="https://www.ocd.gov.ph/" target="_blank" rel="noopener noreferrer">PHILIPPINE OCD ↗</a></div></div>
+      <div class="source-inner"><div><div class="section-kicker">/ KEEP LEARNING</div><h2>TRUSTED INFO.<br><span>SAFER CHOICES.</span></h2></div><p>This site is an educational student project. For real emergencies, use updated guidance from official authorities.</p><div class="source-links"><a href="https://www.ready.gov/" target="_blank" rel="noopener noreferrer">READY.GOV ↗</a><a href="https://www.redcross.org/get-help/how-to-prepare-for-emergencies.html" target="_blank" rel="noopener noreferrer">AMERICAN RED CROSS ↗</a><a href="https://www.pagasa.dost.gov.ph/" target="_blank" rel="noopener noreferrer">PAGASA ↗</a><a href="https://www.phivolcs.dost.gov.ph/" target="_blank" rel="noopener noreferrer">PHIVOLCS ↗</a><a href="https://www.ocd.gov.ph/" target="_blank" rel="noopener noreferrer">PHILIPPINE OCD ↗</a><a href="https://ehotlines.e.gov.ph/" target="_blank" rel="noopener noreferrer">PH EMERGENCY HOTLINES ↗</a></div></div>
     </section>
   </main>
 
-
-    <section class="credits-section" id="image-credits">
-      <div class="credits-inner">
-        <div>
-          <div class="section-kicker">/ IMAGE SOURCES</div>
-          <h2>PHOTO <span>CREDITS.</span></h2>
-        </div>
-        <p>The Outdoor Field Manual uses locally embedded illustrations and visual reference cards. They do not require external image downloads and remain available offline.</p>
-
-      </div>
-    </section>
-
-  <footer class="site-footer">
+<footer class="site-footer">
     <div class="author-credit">
       <p>Designed and developed by <strong>Maximus Nikolai Q. Vinzons</strong></p>
       <p>Computing Fundamentals Final Project</p>

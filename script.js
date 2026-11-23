@@ -17,19 +17,17 @@ mainNav.querySelectorAll("a").forEach((link) => {
   });
 });
 
-// Filter the field-guide cards by topic.
+// Filter field-guide cards by category.
 const filterButtons = document.querySelectorAll(".filter");
-const guideCards = document.querySelectorAll(".guide-card");
+const guideCards = [...document.querySelectorAll(".guide-card")];
 
 filterButtons.forEach((button) => {
   button.addEventListener("click", () => {
     filterButtons.forEach((item) => item.classList.remove("active"));
     button.classList.add("active");
-    const selected = button.dataset.filter;
-
+    const category = button.dataset.filter;
     guideCards.forEach((card) => {
-      const shouldShow = selected === "all" || card.dataset.category === selected;
-      card.hidden = !shouldShow;
+      card.hidden = category !== "all" && card.dataset.category !== category;
     });
   });
 });
